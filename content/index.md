@@ -1,6 +1,7 @@
 ---
 title: OS Assignment HK251
 ---
+
 # Tổng quan
 - **Scheduler và Dispatcher**: quyết định xem process này chạy ở CPU nào.
 - **RAM ảo**: ngăn cách vùng RAM của process này với vùng RAM của process khác. Dù là sử dụng kĩ thuật chia sẻ RAM nhưng mỗi process có một phần RAM của riêng nó -> hệ điều hành phải tự map về cho đúng ô nhớ của process.
