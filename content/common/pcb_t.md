@@ -14,6 +14,6 @@
 ## Nếu cờ `MM_PAGING` (sử dụng cơ chế paging của bộ nhớ) được bật
 - [[mm_struct]]* `mm`: đối tượng quản lý vùng nhớ.
 - [[memphy_struct]]* `mram`: RAM.
-- [[memphy_struct]]** `mswap`: vùng nhớ swap.
-- [[memphy_struct]]* `active_mswap`: vùng nhớ swap đang hoạt động.
-- `uint32_t` `active_mswap_id`: mã của vùng nhớ swap đang hoạt động.
+- [[memphy_struct]]** `mswap`: swap.
+- [[memphy_struct]]* `active_mswap`: RAM swap đang hoạt động.
+- `uint32_t active_mswap_id`: mã vùng swap đang hoạt động.

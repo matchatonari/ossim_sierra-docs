@@ -1,4 +1,4 @@
-Lấy symbol của thanh ghi dựa trên ID của thanh ghi.
+Lấy symbol của VM region dựa trên ID của region
 # Tham số
 - Biến kiểu [[mm_struct]] (memory manager) là con trỏ `mm`.
 - `int rgid`: region id.
