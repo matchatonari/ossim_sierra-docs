@@ -4,8 +4,7 @@
 # Hàm
 1. [[start_timer]]
 2. [[stop_timer]]
-3. `stop_timer`: dừng timer, hủy toàn bộ lock + mutex, giải phóng bộ nhớ.
-4. [[attach_event]]
-5. [[detach_event]]
-6. [[next_slot]]
-7. `current_time`: trả về `_time`.
+3. [[attach_event]]
+4. [[detach_event]]
+5. [[next_slot]]
+6. `current_time`: trả về `_time`.
